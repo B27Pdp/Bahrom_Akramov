@@ -8,6 +8,7 @@ namespace Bahrom_Akramov.Lesson_26_January_2023.HomeTasks
 {
     internal class Design_HashSet_705
     {
+        List<int> list = new List<int>();
         public Design_HashSet_705()
         {
 
