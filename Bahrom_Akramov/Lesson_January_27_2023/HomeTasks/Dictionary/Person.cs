@@ -2,20 +2,36 @@
 {
     internal class Person : IPerson<int>
     {
+        private int id;
+        private int age;
+        private string name;
+
         public int Id
         {
-            get { return Id; }
-            set { Id = value; }
+            get { return id; }
+            set { id = value; }
         }
-        public byte Age 
+        public int Age 
         {
-            get { return Age; }
-            set { Age = value; } 
+            get { return age; }
+            set { age = value; } 
         }
         public string Name 
         { 
-            get { return Name; }
-            set { Name = value; } 
+            get { return name; }
+            set { name = value; } 
         }
+        public Person(int id, int age, string name)
+        {
+            Id = id;
+            Age = age;
+            Name = name;
+        }
+
+        public Person()
+        {
+
+        }
+
     }
 }

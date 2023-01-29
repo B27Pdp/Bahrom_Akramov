@@ -11,4 +11,8 @@
     <Folder Include="Lesson_26_January_2023\LessonTasks\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
+  </ItemGroup>
+
 </Project>

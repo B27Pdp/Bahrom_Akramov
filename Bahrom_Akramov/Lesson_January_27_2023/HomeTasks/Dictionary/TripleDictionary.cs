@@ -8,24 +8,41 @@ namespace Bahrom_Akramov.Lesson_January_27_2023.HomeTasks.Dictionary
 {
     internal class TripleDictionary<T, U, V>
         where T : struct
-        where U : IPerson<int>
+        where U : class, IPerson<int>
         where V : Person
     {
         public T? TProp { get; set; }
         public U? UProp { get; set; }
         public V? VProp { get; set; }
-        
-        public List<T> OrderBy(List<T> listName)
+
+        public TripleDictionary(T? tProp, U? uProp, V? vProp)
         {
-            listName.Sort();
-            return listName;
+            TProp = tProp;
+            UProp = uProp;
+            VProp = vProp;
+        }
+        public TripleDictionary()
+        {
+
         }
 
-        public List<T> OrderByDesc(List<T> listName)
+        List<TripleDictionary<T, U, V>> tripleDictionaries = new();
+        public void Add(T tProp, U uProp, V vProp)
         {
-            listName.Sort();
-            listName.Reverse();
-            return listName;
+            TripleDictionary<T, U, V> a = new(tProp, uProp, vProp);
+            tripleDictionaries.Add(a);
+        }
+
+        public List<TripleDictionary<T, U, V>> OrderBy()
+        {
+            tripleDictionaries = tripleDictionaries.OrderBy(x => x.TProp).ToList();
+            return tripleDictionaries;
+        }
+
+        public List<TripleDictionary<T, U, V>> OrderByDesc()
+        {
+            tripleDictionaries = tripleDictionaries.OrderByDescending(x => x.TProp).ToList();
+            return tripleDictionaries;
         }
     }
 }

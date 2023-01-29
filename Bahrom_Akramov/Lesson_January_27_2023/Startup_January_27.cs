@@ -1,11 +1,5 @@
 ﻿using Bahrom_Akramov.Lesson_January_27_2023.HomeTasks;
 using Bahrom_Akramov.Lesson_January_27_2023.HomeTasks.Dictionary;
-using Bahrom_Akramov.Lesson_January_27_2023.LessonTasks;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bahrom_Akramov.Lesson_January_27_2023
 {
@@ -14,15 +8,30 @@ namespace Bahrom_Akramov.Lesson_January_27_2023
         public static void T_N()
         {
             //Tuple_Nullable.tupleOne();
-            Dictionary<int, int> dict1 = new() { { 1, 111 }, { 2, 222 } };
-            PrintDict.PrintDictionary(dict1);
+            //Dictionary<int, int> dict1 = new() { { 1, 111 }, { 2, 222 } };
+            //PrintDict.PrintDictionary(dict1);
 
-            int[] array = { 1, 2, 3, 4, 5, 6, 7, 8 };
-            LastItem.lastItem(array);
+            //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            //LastItem.lastItem(array);
 
             TripleDictionary<int, Person, Person> triple = new();
-            List<int> ints = new List<int> { 8, 2, 96, 6, 4, 5, 7, 12 };
-            Console.WriteLine(triple.OrderByDesc(ints));
+            triple.Add(1, new Person(2, 25, "Boltavoy"), new Person(5, 30, "Boltaxon"));
+            triple.Add(5, new Person(8, 52, "Polonchi"), new Person(3, 39, "Pistonchixon"));
+            triple.Add(3, new Person(3, 32, "Ali"), new Person(7, 32, "Vali"));
+            triple.Add(11, new Person(5, 15, "Khan"), new Person(1, 12, "Xon"));
+
+            var printItem = triple.OrderBy();
+            foreach (var item in printItem)
+            {
+                Console.WriteLine($"{item.TProp}, {item.UProp.Name}, {item.VProp.Name}");
+            }
+
+            var printItem2 = triple.OrderByDesc();
+            foreach (var item in printItem2)
+            {
+                Console.WriteLine($"{item.TProp}, {item.UProp.Name}, {item.VProp.Name}");
+            }
+
 
 
         }
