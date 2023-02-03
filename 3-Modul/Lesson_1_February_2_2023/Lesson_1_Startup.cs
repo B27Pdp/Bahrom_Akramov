@@ -31,7 +31,7 @@ namespace _3_Modul.Lesson_1_February_2_2023
             //MinMaxList<int> minMaxList = new(); 
             List<int> list = new List<int> { 2, 5, 4, 9, 1, 4, 8, 7 };
             MinAndMaxValues pointer = MinMaxList<int>.minAndMax;
-            Console.WriteLine("\nEng katta va Eng kichik elementkar => " + pointer.Invoke(list));
+            Console.WriteLine("\nEng katta va Eng kichik elementlar => " + pointer.Invoke(list));
         }
     }
 }
