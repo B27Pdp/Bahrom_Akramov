@@ -1,0 +1,12 @@
+id: 3
+Name: Bahrom
+Address: Toshkent
+----------------------
+id: 1
+Name: Boltavoy
+Address: Andijon
+----------------------
+id: 2
+Name: Salmon
+Address: Dunyo
+----------------------

@@ -8,4 +8,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderA\SubFolderA\" />
+    <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderB\" />
+    <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderC\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
+  </ItemGroup>
+
 </Project>
