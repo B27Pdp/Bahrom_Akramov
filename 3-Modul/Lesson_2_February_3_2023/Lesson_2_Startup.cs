@@ -27,7 +27,8 @@ namespace _3_Modul.Lesson_2_February_3_2023
             Task1 task = new();
             task.printInfo();
 
-            Task2_Action_Method.start();
+            Task_3_Function.start();
+           
 
         }
         
