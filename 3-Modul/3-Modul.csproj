@@ -9,12 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Lesson_10_February_14_2023\Json_Folder\" />
     <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderA\SubFolderA\" />
     <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderB\" />
     <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderC\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
   </ItemGroup>
 

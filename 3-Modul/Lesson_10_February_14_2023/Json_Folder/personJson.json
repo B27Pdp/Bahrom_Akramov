@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 2,
+    "FullName": "gfd",
+    "Address": "zxc",
+    "Email": "uytr",
+    "PhoneNumber": "1234"
+  },
+  {
+    "Id": 1,
+    "FullName": "Bahrom Akramov",
+    "Address": "Toshkent",
+    "Email": "example@gmail.com",
+    "PhoneNumber": "+998999093809"
+  },
+  {
+    "Id": 5,
+    "FullName": "gfd",
+    "Address": "xc",
+    "Email": "fd",
+    "PhoneNumber": "234"
+  }
+]
