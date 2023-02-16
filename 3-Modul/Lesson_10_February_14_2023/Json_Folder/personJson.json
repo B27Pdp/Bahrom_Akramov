@@ -1,12 +1,5 @@
 [
   {
-    "Id": 2,
-    "FullName": "gfd",
-    "Address": "zxc",
-    "Email": "uytr",
-    "PhoneNumber": "1234"
-  },
-  {
     "Id": 1,
     "FullName": "Bahrom Akramov",
     "Address": "Toshkent",
@@ -15,9 +8,9 @@
   },
   {
     "Id": 5,
-    "FullName": "gfd",
-    "Address": "xc",
-    "Email": "fd",
-    "PhoneNumber": "234"
+    "FullName": "Boltavoy",
+    "Address": "Andijon",
+    "Email": "bolta@gmail.com",
+    "PhoneNumber": "123456789"
   }
 ]

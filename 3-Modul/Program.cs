@@ -1,5 +1,6 @@
-﻿using _3_Modul.Lesson_10_February_14_2023;
-using _3_Modul.Lesson_9_February_13_2023;
+﻿using _3_Modul.Lesson_11_February_15_2023;
+using _3_Modul.Lesson_12_February_16_2023;
+using _3_Modul.Lesson_8_February_10_2023.LessonTasks;
 
 namespace _3_Modul
 {
@@ -7,17 +8,18 @@ namespace _3_Modul
     {
         static void Main(string[] args)
         {
+            #region music
             //MediaPlayer.playMusic("ptr.wav");
 
-            //Console.WriteLine("<==== W E L K O M E ====>");
+            //Console.WriteLine("<==== W E L C O M E ====>");
             //Console.WriteLine();
             //TimeSpan timeSpan = new TimeSpan(0, 0, 1);
             //Thread.Sleep(timeSpan);
             //int threeTime = 1;
-            //while (threeTime < 3)
+            //while (threeTime < 2)
             //{
             //    Console.Clear();
-            //    Console.WriteLine("<==== W E L K O M E ====>");
+            //    Console.WriteLine("<==== W E L C O M E ====>");
             //    //Thread.Sleep(timeSpan);
             //    Console.Write("\n.");
             //    Thread.Sleep(timeSpan);
@@ -27,8 +29,7 @@ namespace _3_Modul
             //    Thread.Sleep(timeSpan);
             //    threeTime++;
             //}
-
-
+            #endregion
 
             #region Anime
             //Console.CursorVisible = false;
@@ -87,41 +88,41 @@ namespace _3_Modul
             //}
             #endregion
 
+            #region anime2
+            //Console.CursorVisible = false;
 
-            Console.CursorVisible = false;
+            //// Loop indefinitely
+            //int xx = 200;
+            //while (xx > 0)
+            //{
+            //    // Randomly generate colored characters
+            //    Random random = new Random();
+            //    char[] colors = new char[] { ' ', '.', ':', '!', '*', 'o', 'e', '0' };
+            //    ConsoleColor[] consoleColors = new ConsoleColor[] {
+            //    ConsoleColor.Red, ConsoleColor.Yellow, ConsoleColor.Blue,
+            //    ConsoleColor.Magenta, ConsoleColor.Green, ConsoleColor.Cyan,
+            //    ConsoleColor.White, ConsoleColor.DarkGray, ConsoleColor.Gray,
+            //    ConsoleColor.DarkBlue, ConsoleColor.DarkCyan, ConsoleColor.DarkGreen,
+            //    ConsoleColor.DarkMagenta, ConsoleColor.DarkRed, ConsoleColor.DarkYellow
+            //    };
+            //    int colorIndex = random.Next(colors.Length);
+            //    char c = colors[colorIndex];
+            //    ConsoleColor consoleColor = consoleColors[colorIndex];
 
-            // Loop indefinitely
-            int xx = 200;
-            while (xx > 0)
-            {
-                // Randomly generate colored characters
-                Random random = new Random();
-                char[] colors = new char[] { ' ', '.', ':', '!', '*', 'o', 'e', '0' };
-                ConsoleColor[] consoleColors = new ConsoleColor[] {
-                ConsoleColor.Red, ConsoleColor.Yellow, ConsoleColor.Blue,
-                ConsoleColor.Magenta, ConsoleColor.Green, ConsoleColor.Cyan,
-                ConsoleColor.White, ConsoleColor.DarkGray, ConsoleColor.Gray,
-                ConsoleColor.DarkBlue, ConsoleColor.DarkCyan, ConsoleColor.DarkGreen,
-                ConsoleColor.DarkMagenta, ConsoleColor.DarkRed, ConsoleColor.DarkYellow
-            };
-                int colorIndex = random.Next(colors.Length);
-                char c = colors[colorIndex];
-                ConsoleColor consoleColor = consoleColors[colorIndex];
+            //    // Get random position on the console
+            //    int x = random.Next(Console.WindowWidth);
+            //    int y = random.Next(Console.WindowHeight);
 
-                // Get random position on the console
-                int x = random.Next(Console.WindowWidth);
-                int y = random.Next(Console.WindowHeight);
+            //    // Set cursor position and write the colored character
+            //    Console.SetCursorPosition(x, y);
+            //    Console.ForegroundColor = consoleColor;
+            //    Console.Write(c);
 
-                // Set cursor position and write the colored character
-                Console.SetCursorPosition(x, y);
-                Console.ForegroundColor = consoleColor;
-                Console.Write(c);
-
-                // Sleep for a short time to create the fireworks effect
-                Thread.Sleep(10);
-                xx--;
-            }
-
+            //    // Sleep for a short time to create the fireworks effect
+            //    Thread.Sleep(10);
+            //    xx--;
+            //}
+            #endregion
 
 
 
@@ -132,17 +133,15 @@ namespace _3_Modul
             //Lesson_8_Startup.Run();
 
             //Lesson_9_Startup.Run();
-            Console.Clear();
-            Console.CursorVisible = true;
-            Lesson_10_Startup.Run();
 
+            //Console.Clear();
+            //Console.CursorVisible = true;
 
-            
+            //Lesson_10_Startup.Run();
 
+            //Lesson_11_Startup.Run();
 
-
-
-            
+            Lesson_12_Startup.Run();
 
 
 
