@@ -1,0 +1,12 @@
+[
+  {
+    "Person": {
+      "Id": 1,
+      "Name": "Bahrom Akramov",
+      "PassportId": "AB3271607",
+      "IsMarried": false
+    },
+    "Workplace": 1,
+    "Salary": 15000000.0
+  }
+]

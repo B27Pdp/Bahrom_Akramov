@@ -1,5 +1,6 @@
 ﻿using _3_Modul.Lesson_12_February_16_2023.HomeTasks.Task_2;
 using _3_Modul.Lesson_12_February_16_2023.HomeTasks.Task_3;
+using _3_Modul.Lesson_12_February_16_2023.HomeTasks.Threads;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,10 @@ namespace _3_Modul.Lesson_12_February_16_2023
             //};
             //CRUD_Todo.AddNewTodo(todo);
 
-            SearchUser.SearchUsers("Sincere@april.biz");
+            //SearchUser.SearchUsers("Sincere@april.biz");
+
+            //ThreadExample.Run();
+            Test.Run();
         }
     }
 }

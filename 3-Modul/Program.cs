@@ -1,5 +1,8 @@
 ﻿using _3_Modul.Lesson_11_February_15_2023;
 using _3_Modul.Lesson_12_February_16_2023;
+using _3_Modul.Lesson_13_February_20_2023;
+using _3_Modul.Lesson_14_February_23_2023;
+using _3_Modul.Lesson_15_February_25_2023;
 using _3_Modul.Lesson_8_February_10_2023.LessonTasks;
 
 namespace _3_Modul
@@ -141,8 +144,54 @@ namespace _3_Modul
 
             //Lesson_11_Startup.Run();
 
-            Lesson_12_Startup.Run();
+            //Lesson_12_Startup.Run();
 
+            //Lesson_13_Startup.Run();
+
+            //Lesson_14_Startup.Run();
+
+            Lesson_15_Startup.Run();
+
+
+
+            //var numbers = Enumerable.Range(1, 20);
+            ////var evenNumbers = numbers.Where(x => x % 2 == 0);
+            //var evenNumbers = numbers.AsParallel().Where(x => x % 2 == 0);
+            //foreach (var item in evenNumbers)
+            //{
+            //    Console.Write(item + ", ");
+            //}
+
+
+            //Console.WriteLine("Summani kiriting: ");
+            //Console.Write(">> ");
+            //double summa = double.Parse(Console.ReadLine()!);
+            //Console.WriteLine("Foizni kiriting: ");
+            //Console.Write(">> ");
+            //double foiz = double.Parse(Console.ReadLine()!);
+            //Console.WriteLine("Yilni kiriting: ");
+            //Console.Write(">> ");
+            //int year = int.Parse(Console.ReadLine()!);
+            //double oylikTolov = summa / (year * 12);
+            //double birinchiOy = (summa * foiz / 100 + oylikTolov);
+            //double result = 0;
+            //result += birinchiOy;
+            //summa -= oylikTolov;
+            //while (summa > 0)
+            //{
+            //    double keyingiOylar = summa * foiz / 100 + oylikTolov;
+            //    if (summa > keyingiOylar)
+            //    {
+            //        summa -= keyingiOylar;
+            //    }
+            //    else
+            //    {
+            //        result += summa * foiz / 100 + oylikTolov;
+            //        summa = 0;
+            //    }
+            //    result += keyingiOylar;
+            //}
+            //Console.WriteLine(result);
 
 
 

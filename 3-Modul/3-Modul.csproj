@@ -11,12 +11,15 @@
   <ItemGroup>
     <Folder Include="Lesson_10_February_14_2023\Json_Folder\" />
     <Folder Include="Lesson_12_February_16_2023\HomeTasks\Task_1\" />
+    <Folder Include="Lesson_12_February_16_2023\HomeTasks\Threads\Files\" />
+    <Folder Include="Lesson_13_February_20_2023\HomeTasks\Rassrochka\Json_Files\" />
     <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderA\SubFolderA\" />
     <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderB\" />
     <Folder Include="Lesson_6_February_8_2023\HomeTasks\FilePath\FolderC\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
   </ItemGroup>
